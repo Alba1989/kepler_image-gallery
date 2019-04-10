@@ -64,21 +64,37 @@ img{
     font-size: 150%;
 }
 
+.change-student {
+    
+}
+
+.change-student__title {
+
+}
+
+.change-student__buttons{
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
 .fas{
-    color: #FEB500;
     font-size: 60px;
-    background: rgb(54, 54, 54);
+    color: #FEB500;
+    
+}
+
+.button{
+    /* background: rgb(54, 54, 54); */
+    background: rgba(255, 255, 255, 0.497);
     padding: 10px;
 }
 
-.fas:hover {
-    background: rgba(255, 255, 255, 0.397);
-}
+.button:hover {
 
-.fa-chevron-left {
-    margin-right: 7px;
+    background: rgba(255, 255, 255, 0.697);
 }
-
 
 /*CARD MAGIC*/
 
