@@ -1,0 +1,155 @@
+/*COLORS
+#FEB500
+#353535
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body{
+    font-family:'Titillium Web', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background: black;
+}
+
+h1 {
+    font-size: 450%;
+    font-weight: 700;
+    color:#FFFF;
+    margin-bottom: 30px;
+    /* letter-spacing: 1px; */
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    /* height: 700px; */
+    max-width: 900px;
+    /* background:#FEB500; */
+    background:#353535;
+}
+
+.student {
+    
+    display: flex;
+    margin: 20px;
+
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+.student__picture,
+.student__info{
+    color: black;
+    padding: 5px; 
+    /* border: 5px solid #FEB500; */
+    width: 50%;
+    min-height: 500px;  
+    margin-bottom: 10px;
+}
+
+.student__picture {
+    background: #F8F4F1;
+    margin-right: 12px;
+}
+
+.student__info{
+    background: #FEB500;    
+}
+
+.change-student h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+
+.fas{
+    color: #FEB500;
+    font-size: 60px;
+    background: rgba(255, 255, 255, 0.308);
+    padding: 10px;
+}
+
+.fas:hover {
+    background: rgba(255, 255, 255, 0.397);
+}
+
+.fa-chevron-left {
+    margin-right: 7px;
+}
+
+
+/*CARD MAGIC*/
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .maincontainer {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+  }
+  
+  .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    box-shadow: rgba(0, 94, 62, 0.15) 0px 1.5rem 4rem;
+    font-family: "Montserrat", serif;
+  }
+  
+  .thecard:hover,
+  .thecard:focus {
+    transform: rotateY(180deg);
+  }
+  
+  .thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color: #333;
+    text-align: center;
+  
+    border-radius: 4px;
+  
+    font-weight: bold;
+    padding: 5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color: #333;
+    transform: rotateY(180deg);
+    padding: 45% 2% 2% 2%;
+  }
