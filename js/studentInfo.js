@@ -1,4 +1,17 @@
 const studentInfo = [{
+  firstName: 'Koray',
+  lastName: 'Dündar',
+  title: 'Junior Web Developer',
+  nationality: 'Turkish',
+  src: 'koray.jpg',
+  alt: 'koray',
+  skills: ['HTML5', 'CSS3', 'JavaScript', 'Media Production'],
+  whySofterDeveloper: 'Because this is what I am passionate about.',
+  longTermVision: 'Become a succesful web developer',
+  motivatesMe: 'Learning',
+  favoriteQuote: '',
+  joinedOn: '21.01.2019'
+},{
       firstName: 'Evans ',
       lastName: 'Chaba',
       title: 'Junior Web Developer',
@@ -124,20 +137,20 @@ const studentInfo = [{
       favoriteQuote: 'Every moment is a fresh beginning. T.S. Eliot',
       joinedOn: '21 January 2019'
     },
-    {
-      firstName: 'Alba ',
-      lastName: 'Vrapi',
-      title: 'Junior Web Developer',
-      nationality: 'Albanian',
-      src: 'alba.jpg',
-      alt: 'Alba',
-      skills: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'JAVA', 'SQL', 'NODE JS'],
-      whySofterDeveloper: 'It is a creative job , and gives the possibility to learn continuously.',
-      longTermVision: 'Full-Stack Developer',
-      motivatesMe: 'My Family',
-      favoriteQuote: 'Be the change that you wish to see in the world. Mahatma Gandhi',
-      joinedOn: '21 January 2019'
-    },
+    // {
+    //   firstName: 'Alba ',
+    //   lastName: 'Vrapi',
+    //   title: 'Junior Web Developer',
+    //   nationality: 'Albanian',
+    //   src: 'alba.jpg',
+    //   alt: 'Alba',
+    //   skills: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'JAVA', 'SQL', 'NODE JS'],
+    //   whySofterDeveloper: 'It is a creative job , and gives the possibility to learn continuously.',
+    //   longTermVision: 'Full-Stack Developer',
+    //   motivatesMe: 'My Family',
+    //   favoriteQuote: 'Be the change that you wish to see in the world. Mahatma Gandhi',
+    //   joinedOn: '21 January 2019'
+    // },
     
     {
       firstName: 'Adrien',
@@ -150,21 +163,6 @@ const studentInfo = [{
       whySofterDeveloper: 'The opportunity to take a new career path in a dynamic industry',
       longTermVision: 'Be involved as a senior developer or team leader in a gaming related project',
       motivatesMe: 'learning something new, to be part of a creative and progressive group of people',
-      favoriteQuote: '',
-      joinedOn: '21.01.2019'
-    },
-    
-    {
-      firstName: 'Koray',
-      lastName: 'Dündar',
-      title: 'Junior Web Developer',
-      nationality: 'Turkish',
-      src: 'koray.jpg',
-      alt: 'koray',
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'Video and Photo Production'],
-      whySofterDeveloper: 'Because this is what I am passionate about.',
-      longTermVision: 'Become a succesful web developer',
-      motivatesMe: 'Learning',
       favoriteQuote: '',
       joinedOn: '21.01.2019'
     },
@@ -253,20 +251,21 @@ const studentInfo = [{
       favoriteQuote: 'Code solve problems, and it can make the world a better place. Do good with code',
       joinedOn: '21.01.2019'
     },
+    // {
+    //   firstName: 'Sooyeon',
+    //   lastName: 'Choi',
+    //   title: 'Junior Web Developer',
+    //   nationality: 'South Korea',
+    //   src: 'I dont have a picture',
+    //   alt: 'sooyeon',
+    //   skills: ['HTML', 'CSS', 'JavaScript'],
+    //   whySofterDeveloper: 'I love to create',
+    //   longTermVision: 'I wanna help people who wants to learn technology and how technology can influence their lives',
+    //   motivatesMe: 'People',
+    //   favoriteQuote: 'Sow a thought and you reap an action; sow an act and you reap a habit; sow a habit and you reap a character; sow a character and you reap a destiny.',
+    //   joinedOn: '21.01.2019'
+    // }, 
     {
-      firstName: 'Sooyeon',
-      lastName: 'Choi',
-      title: 'Junior Web Developer',
-      nationality: 'South Korea',
-      src: 'I dont have a picture',
-      alt: 'sooyeon',
-      skills: ['HTML', 'CSS', 'JavaScript'],
-      whySofterDeveloper: 'I love to create',
-      longTermVision: 'I wanna help people who wants to learn technology and how technology can influence their lives',
-      motivatesMe: 'People',
-      favoriteQuote: 'Sow a thought and you reap an action; sow an act and you reap a habit; sow a habit and you reap a character; sow a character and you reap a destiny.',
-      joinedOn: '21.01.2019'
-    }, {
       firstName: 'Garland',
       lastName: 'Rajasalan',
       title: 'Junior developer',

@@ -40,7 +40,7 @@ h3 {
     padding: 20px;
     /* height: 700px; */
     max-width: 1100px;
-    background:rgb(255, 188, 17);
+    background:linear-gradient(to bottom, #3535352a,  #FEB5002a);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
     /* background:#353535; */
 
@@ -124,10 +124,12 @@ img{
     font-family: "Montserrat", serif;
   }
   
-  .thecard:hover,
-  .thecard:focus {
+  /* .thecard:hover {
     transform: rotateY(180deg);
-  }
+    transition: all, 2s;
+  } */
+
+  
   
   .thefront {
     position: absolute;
@@ -137,9 +139,7 @@ img{
     background: #fafafa;
     color: #333;
     text-align: center;
-  
     border-radius: 4px;
-  
     font-weight: bold;
     padding: 1%;
     overflow: hidden;
@@ -159,6 +159,79 @@ img{
     padding: 2% 2% 2% 2%;
   }
 
-  li{
-      list-style:none;
+  .box1 {
+    
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
   }
+
+  .box2 {
+    text-align: left;
+    padding: 15px;
+    
+  }
+  
+  li{
+      /* border: 1px solid black; */
+      list-style:none;
+      font-size: 150%;
+      color: white;
+      margin-bottom: 3px;
+  }
+
+  .skills-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill-li {
+    /* list-style: disc outside none; */
+    font-size: 100%;
+    text-transform: uppercase;
+    margin-right:20px; 
+    text-decoration:underline; 
+  }
+
+  hr {
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* ANIMATION TEST 
+ .classname {
+    -webkit-animation-name: cssAnimation;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards; 
+  }
+  @-webkit-keyframes cssAnimation {
+    0% {
+     transform: scale(0.1);
+    }
+    
+
+    100%{
+      transform: scale(1.0)
+    }
+  } */
+
+ 
